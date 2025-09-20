@@ -9,3 +9,6 @@ class HomepageView(TemplateView):
         context['my_statement'] = 'Nice to see you!'
         return context
     
+    def say_bye(self):
+        return 'Goodbye' 
+    
